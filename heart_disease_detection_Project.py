@@ -92,7 +92,7 @@ def main():
         
        st.write("Developed By: Ditshego Ramokolo")
        st.markdown("""Reach out to me on: 
-       [Kaggle](https://www.kaggle.com/DitshegoRamokoloEduvos) 
+       [Kaggle](https://github.com/DitshegoRamokoloEduvos/ITDAA4-12/blob/main/heart_disease_detection_Project.py) 
        """)
 #a,b,c = st.columns([0.2,0.6,0.2])
 #with b:
