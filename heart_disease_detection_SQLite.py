@@ -21,27 +21,27 @@ st.set_page_config(page_title="Eduvos ITDAA4-12 Heart disease Prediction App for
 
 #creating option list for dropdown menu
 
-options_sex = [ 'Gender','male', 'female']
+options_sex = [ 'Gender', 1, 0]
 
-options_cp = ['chest pain type','typical angina', 'atypical angina', 'no-anginal pain', 'asymptomatic']
-
-
-options_fbs = ['fasting blood sugar','true', 'false']
+options_cp = ['chest pain type', 0, 1, 2, 3]
 
 
-options_restecg = ['resting eletrocardiographic results','normal','abnormal','ventricular hypertrophy']
+options_fbs = ['fasting blood sugar',1, 0]
 
 
-options_exang = ['exercise induced angina','yes','no']
+options_restecg = ['resting eletrocardiographic results', 0, 1, 2]
 
 
-options_slope = ['The Slope of the Peak Exercise ST segment','upsloping','flat','downsloping']
+options_exang = ['exercise induced angina', 1, 0]
 
 
-options_ca = ['Number of Major Vessels Coloured by Fluoroscopy','low','mild', 'moderate', 'high', 'severe']
+options_slope = ['The Slope of the Peak Exercise ST segment', 0, 1, 2]
 
 
-options_thal = ['Status of the heart','normal', 'fixed defect', 'reversible defect','unknown']
+options_ca = ['Number of Major Vessels Coloured by Fluoroscopy', 0, 1, 2, 3, 4]
+
+
+options_thal = ['Status of the heart', 1, 2, 3, 0]
 
 
 # features list
@@ -92,7 +92,7 @@ def main():
         
        st.write("Developed By: Ditshego Ramokolo")
        st.markdown("""Reach out to me on: 
-       [Kaggle](https://www.kaggle.com/DitshegoRamokoloEduvos) 
+       [Kaggle](https://www.kaggle.com/DitshegoRamokoloEduvos/ITDAA4-12/tree/main) 
        """)
 #a,b,c = st.columns([0.2,0.6,0.2])
 #with b:

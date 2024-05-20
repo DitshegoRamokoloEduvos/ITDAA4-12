@@ -17,7 +17,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 # 1: heart disease, 0: healthy
 
 st.set_page_config(page_title="Heart disease Prediction App",
-        page_icon="🚧", layout="wide")
+        page_icon="heartbeat", layout="wide")
 
 #creating option list for dropdown menu
 
@@ -48,7 +48,7 @@ st.set_page_config(page_title="Heart disease Prediction App",
 features = ['age','sex','cp','trestbps','chol','fbs',
     'restecg','thalach','exang','oldpeak','slope','ca','thal']
 # Give a title to web app using html syntax
-st.markdown("<h1 style='text-align: center;'>Heart Disease Prediction App 🚧</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Heart Disease Prediction App </h1>", unsafe_allow_html=True)
 
 # define a main() function to take inputs from user in form based approach
 def main():
@@ -96,7 +96,7 @@ def main():
        """)
 #a,b,c = st.columns([0.2,0.6,0.2])
 #with b:
-# st.image("banner-picture.jpeg", use_column_width=True)
+st.image("Heart.jpg", use_column_width=True)
 
 # description about the project and code files       
 st.subheader("🧾Description:")
